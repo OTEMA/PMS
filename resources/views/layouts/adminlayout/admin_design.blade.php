@@ -16,7 +16,7 @@
         <link rel="stylesheet" href="{{asset('css/backend_css/AdminLTE.min.css')}}">
         <!-- AdminLTE Skins. Choose a skin from the css/skins
              folder instead of downloading all of them to reduce the load. -->
-        <link rel="stylesheet" href="{{asset('css/backend_css/skins/skin-purple.min.css')}}">
+        <link rel="stylesheet" href="{{asset('css/backend_css/skins/_all-skins.min.css')}}">
         <!-- Morris chart -->
         <link rel="stylesheet" href="{{asset('bower_components/morris.js/morris.css')}}">
         <!-- jvectormap -->
