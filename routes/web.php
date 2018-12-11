@@ -18,4 +18,11 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+//Admin login route
 Route::match(['get', 'post'], '/admin', 'AdminController@login');
+//Admin utility routes
+Route::get('/admin/settings', 'AdminController@settings');
+Route::match(['get', 'post'], '/admin/update-pwd', 'AdminController@updatePassword');
+Route::get('/logout', 'AdminController@logout');
+Route::get('/admin/dashboard', 'AdminController@dashboard');
+Route::get('/admin/check-pwd','AdminController@chkPassword');
