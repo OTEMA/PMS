@@ -26,3 +26,5 @@ Route::match(['get', 'post'], '/admin/update-pwd', 'AdminController@updatePasswo
 Route::get('/logout', 'AdminController@logout');
 Route::get('/admin/dashboard', 'AdminController@dashboard');
 Route::get('/admin/check-pwd','AdminController@chkPassword');
+Route::get('/accounts/dashboard', 'AdminController@accountsDashboard');
+Route::get('/superadmin/dashboard', 'AdminController@sAdminDashboard');
